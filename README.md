@@ -2,7 +2,7 @@
 
 EFI para hackintosh no laptop Lenovo Gaming 3i
 
-Testado no macOS Monterey e BigSur.
+Testado no macOS Monterey, BigSur e Ventura (Sonoma não testado, mas já há uma kext para wifi em versão alpha).
 
 ### Hardware:
 
