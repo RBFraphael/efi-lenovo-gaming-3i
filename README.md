@@ -4,6 +4,8 @@ EFI para hackintosh no laptop Lenovo Gaming 3i
 
 Testado no macOS Monterey, BigSur e Ventura (Sonoma não testado, mas já há uma kext para wifi em versão alpha).
 
+**IMPORTANTE:** A EFI para **`macOS Sequoia não possui wifi/bluetooth ativo`**, uma vez que a kext para o Intel Wifi não possui versão, nem mesmo beta, para Sequoia (o desenvolvimento ficou parado em uma kext beta para o Sonoma), sendo necessário utilizar conexão cabeada, dongle USB ou trocar a placa wifi/bluetooth interna para ter conexão com a internet.
+
 ### Hardware:
 
 |Tipo|Modelo|Obs.|
