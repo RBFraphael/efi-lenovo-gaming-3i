@@ -312,7 +312,7 @@
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-type</key>
-				<data>AAgAAA==</data>
+				<data>00080000</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
@@ -321,6 +321,8 @@
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAwA==</data>
+                <key>framebuffer-con0-alldata</key>
+                <data>00000000 02000000 30000000 00080000 87000000</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 			</dict>
@@ -963,7 +965,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-igfxblr -v</string>
+				<string>-igfxblr -v igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
