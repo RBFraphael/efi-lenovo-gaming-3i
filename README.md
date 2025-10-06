@@ -2,9 +2,9 @@
 
 EFI para hackintosh no laptop Lenovo Gaming 3i
 
-Testado no macOS Monterey, BigSur e Ventura (Sonoma não testado, mas já há uma kext para wifi em versão alpha).
+**IMPORTANTE:** A EFI para **`macOS Tahoe não possui wifi/bluetooth ativo`**, uma vez que a kext para o Intel Wifi não possui versão, nem mesmo beta, para Tahoe (o desenvolvimento ficou parado em uma kext beta para o Sonoma), sendo necessário utilizar conexão cabeada, dongle USB ou trocar a placa wifi/bluetooth interna para ter conexão com a internet.
 
-**IMPORTANTE:** A EFI para **`macOS Sequoia não possui wifi/bluetooth ativo`**, uma vez que a kext para o Intel Wifi não possui versão, nem mesmo beta, para Sequoia (o desenvolvimento ficou parado em uma kext beta para o Sonoma), sendo necessário utilizar conexão cabeada, dongle USB ou trocar a placa wifi/bluetooth interna para ter conexão com a internet.
+**IMPORTANTE (2):** Para habilitar o áudio no macOS Tahoe, instale o [KDK](https://github.com/dortania/KdkSupportPkg/releases) e utilize o [MyKextInstaller](https://github.com/Mirone/MyKextInstaller/releases/latest) para reinstalar o AppleHDA no sistema. (Fonte: [Mykextinstaller on InsanelyMac](https://www.insanelymac.com/forum/topic/361340-mykextinstaller/))
 
 ### Hardware:
 
