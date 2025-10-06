@@ -965,7 +965,7 @@
 				<key>boot-args</key>
 				<string>-igfxblt -v igfxonln=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>pt-BR:128</string>
 				<key>run-efi-updater</key>
